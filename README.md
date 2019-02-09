@@ -11,6 +11,7 @@ Changes MAC address automatically in Linux machines.<br>
 Leave your script running and your MAC address will be changed at every 300sec (5mins).
 ## Customizing
 6. You can change the time at which the MAC address takes to change by editing this line of code <br>
-   _time.sleep(300)_  ----> at line 11 
+   _time.sleep(300)_  ----> at line 11 <br>
+7. You can use _wlan0_ instead of _eth0_ depending on the type of network you're connected to.
 
 ### The change is not permanent, NIC gets its real MAC address back as soon as you restart the PC.
