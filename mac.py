@@ -2,6 +2,18 @@
 
 import os
 import time
+
+print """
+
+***************************************************************************
+                    AUTOMATIC MAC ADDRESS CHANGER
+                            CREATED BY:
+                        SAMMY MWANGANGI
+****************************************************************************
+
+"""
+time.sleep(3)
+
 while True:
     os.system("service network-manager stop")
     os.system("ifconfig eth0 down")
