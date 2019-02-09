@@ -14,4 +14,4 @@ Leave your script running and your MAC address will be changed at every 300sec (
    _time.sleep(300)_  ----> at line 11 <br>
 ##### 7. You can open the file on a text editor and change _wlan0_ to  _eth0_ or  depending on the type of network you're connected to.
 
-### The change is not permanent, NIC gets its real MAC address back as soon as you restart the PC.
+### NOTE: The change is not permanent, NIC gets its real MAC address back as soon as you restart the PC.
